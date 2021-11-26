@@ -55,4 +55,4 @@ In this project, our data file consists of binary data click data (0 for not cli
 
 For other data sources, we need to adapt prior and posterior distribution. For example, if our data is Normal distributed (prior distribution), the posterior distribution may be Normal, Gamma or Normal-Gamma distributed. These distributions have more than one parameter. Depending on which and how many parameters are modelled to learn, Bayesian theory tells us which prior and posterior distribution should be modelled together (form a conjugate pair).
 
-Mathematically, these changes should be made in the method show_ad().
+Mathematically, these changes should be made to the method show_ad().
