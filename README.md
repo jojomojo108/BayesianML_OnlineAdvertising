@@ -34,7 +34,9 @@ CTRs.png ... result: shows changing click-through-rates of both ads
 
 # Usage
 First run the server, then the client, i.e. run the files in this order:
+
 python advertisement_class.py
+
 python customer_client.py
 
 # Results
