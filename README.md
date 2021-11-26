@@ -32,6 +32,10 @@ customer_client.py ... simulates clients' views and clicks (as given in data fil
 
 CTRs.png ... result: shows changing click-through-rates of both ads
 
+requirements.txt ... list of all required modules and their versions
+
+runtime.txt ... version of python used
+
 # Usage
 First run the server, then the client, i.e. run the files in this order:
 
