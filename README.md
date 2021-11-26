@@ -22,15 +22,15 @@ Bayesian ML is generally suitable for online learning. When data is collected re
 Bayesian ML therefore reduces computation time as well as data collection costs.
 
 # Files
-advertisement_clicks.csv ...... data file
+advertisement_clicks.csv ... data file
 
-advertisement_class.py ........ class for ads (views, clicks, showing probability)
+advertisement_class.py ... class for ads (views, clicks, showing probability)
 
-advertisement_server.py ....... shows advertisements, receives clicks on ads
+advertisement_server.py ... shows advertisements, receives clicks on ads
 
-customer_client.py ............ simulates clients' views and clicks (as given in data file)
+customer_client.py ... simulates clients' views and clicks (as given in data file)
 
-CTRs.png ...................... result: shows changing click-through-rates of both ads
+CTRs.png ... result: shows changing click-through-rates of both ads
 
 # Usage
 First run the server, then the client, i.e. run the files in this order:
