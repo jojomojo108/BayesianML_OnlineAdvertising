@@ -39,7 +39,7 @@ runtime.txt ... version of python used
 # Usage
 First run the server, then the client, i.e. run the files in this order:
 
-python advertisement_class.py
+python advertisement_server.py
 
 python customer_client.py
 
@@ -54,3 +54,5 @@ Note that only for roughly the first 200 ads, the suboptimal ad was also shown. 
 In this project, our data file consists of binary data click data (0 for not clicking, 1 for clicking). Therefore we chose a Bernoulli distribution as prior distribution and a Beta distribution as posterior distribution (see Bayesian theory).
 
 For other data sources, we need to adapt prior and posterior distribution. For example, if our data is Normal distributed (prior distribution), the posterior distribution may be Normal, Gamma or Normal-Gamma distributed. These distributions have more than one parameter. Depending on which and how many parameters are modelled to learn, Bayesian theory tells us which prior and posterior distribution should be modelled together (form a conjugate pair).
+
+Mathematically, these changes should be made in the method show_ad().
